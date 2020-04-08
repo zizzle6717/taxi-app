@@ -1,0 +1,22 @@
+{
+  "name": "taxi-app",
+  "version": "1.0.0",
+  "description": "react-native sandbox",
+  "main": "index.js",
+  "scripts": {
+    "server:watch": "./node_modules/.bin/babel-watch --watch backend/src backend/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-native": "^0.62.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-watch": "^7.0.0"
+  }
+}
